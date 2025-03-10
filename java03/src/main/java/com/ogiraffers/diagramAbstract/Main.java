@@ -8,7 +8,13 @@ public class Main {
 //        다양한 도형 객체를 생성하고, 각 도형의 면적을 계산하여 출력합니다.
 //        결과물로 추상 클래스와 인터페이스를 이용하여 다양한 도형 객체를 생성하고 면적을 계산하여 출력하는 스크린샷을 제출합니다.
 
+        AbstractDiagram circle = new Circle(7);
+        AbstractDiagram triangle = new Triangle(3,5);
+        AbstractDiagram square = new Square(7,9);
 
+        circle.showArea();
+        triangle.showArea();
+        square.showArea();
 
     }
 }
